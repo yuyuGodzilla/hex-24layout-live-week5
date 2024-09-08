@@ -1,0 +1,20 @@
+.l-aside{
+    width: 296px;
+
+    .nav-item{
+
+        &:hover{
+            border-left: 4px solid $success;
+        }
+        
+        .nav-link{
+            
+            &:hover{
+                color: $success;
+            }
+        }
+    }
+}
+
+
+
