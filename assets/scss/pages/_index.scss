@@ -1,6 +1,13 @@
-
+.p-assignment{
+  width: calc( 100% - 296px);
+}
 .p-assignment-header{
   margin-bottom: 44px;
+
+
+  & .dropdown-toggle::after{
+    display: none;
+  }
 }
 
 .p-assignment-list-group{
@@ -13,6 +20,12 @@
   &__topIcon{
     margin-left: 9px;
   }
+
+  & .list-group-item{
+    &:hover{
+      background-color: $light;
+    }
+  }
 }
 
 .p-assignment-card{
@@ -23,3 +36,4 @@
     color: #6C757D;
   }
 }
+

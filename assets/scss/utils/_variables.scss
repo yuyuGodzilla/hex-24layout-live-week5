@@ -320,6 +320,7 @@ $theme-colors: (
   "dark":       $dark,
 
 
+  "gray-400": $gray-400,
   "gray-600": $gray-600,
   "gray-900": $gray-900,
 ) !default;
@@ -427,6 +428,7 @@ $spacers: (
   5: $spacer * 2,
   6: $spacer * 2.5,
   7: $spacer * 3,
+  8: $spacer * 0.75, // 12px
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -653,12 +655,21 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
+  // 1: $h1-font-size,
+  // 2: $h2-font-size,
+  // 3: $h3-font-size,
+  // 4: $h4-font-size,
+  // 5: $h5-font-size,
+  // 6: $h6-font-size,
+
   1: $h1-font-size,
   2: $h2-font-size,
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
+  6: $h6-font-size,
+  7: $font-size-base * 0.875, //14px
+  8: $font-size-base * 0.75,  //12px
 ) !default;
 // scss-docs-end font-sizes
 
