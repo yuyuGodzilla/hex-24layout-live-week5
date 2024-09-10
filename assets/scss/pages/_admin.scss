@@ -1,3 +1,23 @@
 .p-admin {
   width: calc(100% - 296px);
+
+  .modal-dialog{
+    max-width: 480px;
+  }
+
+  .form-select{
+    max-height: 51px;
+  }
+
+  .pagination{
+    .page-link{
+      &:hover{
+        color: white !important;
+        background: $success;
+      }
+      &:hover .material-symbols-outlined{
+        color: white !important;
+      }
+    }
+  }
 }
